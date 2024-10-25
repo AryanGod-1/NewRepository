@@ -1,3 +1,28 @@
+
+Aryan Goud
 This is kinda like my first git repostitory and its manipulation
 Aryan Goud
-Council of MEN.
+git config --global user.email "aryangoud2023@gmail.com"
+git config --global user.name "AryanGod-1"
+
+cd ~Desktop
+git status 
+mkdir project
+touch names.txt
+git status 
+git add . (to add all of the files in a staging area so taht they can be considered to get tracked)
+git add names.txt
+git commit -m "names.txt file added"
+git status
+vi names.txt 
+escBUTTON  then :wq
+cat names.txt
+git status
+git add . or git add names.txt
+git status 
+git restore --stage names.txt
+git add names.txt
+git status 
+git commit -m "names.txt file modified"
+git log
+Aryan Goud 
